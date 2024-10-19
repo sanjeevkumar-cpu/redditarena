@@ -68,7 +68,3 @@ This project has been created for [https://roadmap.sh/projects/reddit-client](ht
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-This README now mirrors the structure and content from the images you provided, including the project structure, favicon, and other details. Let me know if you need any modifications!
