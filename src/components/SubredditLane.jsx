@@ -110,7 +110,7 @@ const SubredditLane = ({ subreddit, isDarkMode, onDelete, index }) => {
                 href={`https://reddit.com/r/${subreddit}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"
+                className="inline-block bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded btn-font"
               >
                 View More in r/{subreddit}
               </a>

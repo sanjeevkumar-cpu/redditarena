@@ -47,14 +47,14 @@ const App = () => {
             {!isWelcomeVisible && (
               <>
                 <button
-                  className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full flex items-center"
+                  className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full flex items-center btn-font"
                   onClick={() => setIsModalOpen(true)}
                 >
                   <PlusIcon className="h-5 w-5 mr-2" />
                   Add Lane
                 </button>
                 <button
-                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full flex items-center"
+                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full flex items-center btn-font"
                   onClick={() => setSubreddits([])}
                 >
                   Clear All
@@ -62,7 +62,7 @@ const App = () => {
               </>
             )}
             <button
-              className={`font-bold py-2 px-4 rounded flex items-center 
+              className={`font-bold py-2 px-4 rounded flex items-center btn-font
                 ${isDarkMode ? 'bg-gray-600 hover:bg-gray-500 text-white' : 'bg-gray-300 hover:bg-gray-200 text-black'}`}
               onClick={toggleDarkMode}
             >
@@ -89,7 +89,7 @@ const App = () => {
             </p>
             <div className="flex justify-center mb-4">
               <button
-                className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full flex items-center"
+                className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full flex items-center btn-font"
                 onClick={() => setIsModalOpen(true)}
               >
                 <PlusIcon className="h-5 w-5 mr-2" />
@@ -135,13 +135,13 @@ const App = () => {
               />
               <div className="flex justify-end">
                 <button
-                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2"
+                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2 btn-font"
                   onClick={() => setIsModalOpen(false)}
                 >
                   Cancel
                 </button>
                 <button
-                  className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded btn-font"
                   onClick={handleAddSubreddit}
                 >
                   Add
@@ -156,12 +156,15 @@ const App = () => {
       {isWelcomeVisible && (
         <footer className="bg-orange-500 text-white py-4">
           <div className="container mx-auto flex justify-center space-x-4">
-            <a href="https://github.com/pranjalTripathi2003/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/PranjalTripathi2003" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github text-2xl"></i>
             </a>
             <a href="https://www.linkedin.com/in/pranjaltripathi2003/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin text-2xl"></i>
             </a>
+          </div>
+          <div className="text-center mt-2 btn-font">
+            made by pt
           </div>
         </footer>
       )}
