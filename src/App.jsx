@@ -156,15 +156,15 @@ const App = () => {
       {isWelcomeVisible && (
         <footer className="bg-orange-500 text-white py-4">
           <div className="container mx-auto flex justify-center space-x-4">
-            <a href="https://github.com/PranjalTripathi2003" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/sanjeevkumar-cpu" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github text-2xl"></i>
             </a>
-            <a href="https://www.linkedin.com/in/pranjaltripathi2003/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/SanjeevKumar2003/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin text-2xl"></i>
             </a>
           </div>
           <div className="text-center mt-2 btn-font">
-            made by pt
+            made by sk
           </div>
         </footer>
       )}
