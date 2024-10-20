@@ -32,15 +32,15 @@ Reddit Arena is a web application that allows users to stay updated with multipl
 
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Usage
 
-1. Open the application in your browser:
+1. Open the application in your browser, default for vite projects:
 
    ```bash
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 2. Add your favorite subreddits using the "Add Lane" button.
